@@ -7,19 +7,52 @@
     <title>FP</title>
 </head>
 <body>
+    <form action="#" method="post" enctype="multipart/form-data">
     <div>
-        <h1>Белковая инженерия и ее основные направления развития</h1>
-        <p>Белки – это важнейшие биологические нанообъекты, без которых невозможно существование жизни, поэтому белковая инженерия является неотъемлемой составной частью инженерии биологических наноструктур.</p>
-        <p>Белки – высокомолекулярные природные полимеры, состоящие из аминокислотных остатков, соединенных пептидной связью.</p>
-        <p>Белковая инженерия – область знаний на стыке физики, химии и генетической инженерии.</p>
-        <p><b>Белковая инженерия</b> – раздел биоинженерии, включающий совокупность методов и
-            технологий, направленных на создание новых, не встречающихся в природе белков и
-            пептидов, а также на модификацию природных белков с целью улучшения их физикохимических или биологических свойств</p>
-        <ul>
-            <li>Молекулярный дизайн</li>
-            <li>Инженерная энзимология</li>
-            <li>Молекулярная электроника</li>
-        </ul>
+        <p>Имя</p>
+        <input type="text" name="username" value="">
     </div>
+    <div>
+        <p>Пароль</p>
+        <input type="password" name="userpas">
+    </div>
+    <div>
+        <p>Телефон</p>
+        <input type="tel" name="tel" value="">
+    </div>
+    <div>
+        <p>Пол</p>
+        <p><input checked type="radio" name="sex" value="man">Мужчина</p>
+        <p><input type="radio" name="sex" value="women">Женщина</p>
+    </div>
+    <div>
+        <p>Имущество</p>
+        <p><input checked type="checkbox" name="bicycle" value="yes">Велосипед</p>
+        <p><input type="checkbox" name="car" value="yes">Машина</p>
+        <p><input disabled type="checkbox" name="flat" value="yes">Квартира</p>
+    </div>
+    <div>
+        <p>Дополнительная информация</p>
+        <textarea name="info"></textarea>
+    </div>
+    <div>
+        <p>Прикрепить фото</p>
+        <input type="file" name="foto">
+    </div>
+    <div>
+        <p>Любимый цвет</p>
+        <select name="color">
+            <option value="red">Красный</option>
+            <option value="yellow">Желтый</option>
+            <option value="blue">Синий</option>
+            <option value="green">Зеленый</option>
+        </select>
+    </div>
+    <div>
+        <p>Действия</p>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </div>
+</form>
 </body>
 </html>
